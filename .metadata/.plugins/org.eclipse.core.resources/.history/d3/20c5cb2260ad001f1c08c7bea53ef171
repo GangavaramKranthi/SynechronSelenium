@@ -1,0 +1,25 @@
+package Datadriventesting;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Testcase1 extends ReadPropertiesFile{
+	
+
+	public static void main(String[] args) throws IOException {
+		
+		Properties props = new Properties();
+		
+		FileInputStream reader =new FileInputStream("C://Users//Kiosk_user//eclipse-workspace-Kranthi//corejava//Config.Properties");
+	props.load(reader);
+	
+	String username=props.getProperty("Username");
+	
+	System.out.println("username");
+	
+	
+	}
+
+}

@@ -1,0 +1,30 @@
+package Synechrontestcase;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Radiobuttons {
+
+	public static void main(String[] args) {
+		WebDriver driver= new ChromeDriver();
+		driver.navigate().to("https://rahulshettyacademy.com/AutomationPractice/");
+		
+		driver.manage().window().maximize();
+		
+		WebElement radio=driver.findElement(By.xpath("(//input[@name='radioButton'])[1]"));
+		
+		radio.click();
+		
+		WebElement checkbok=driver.findElement(By.id("checkbox"));
+		
+		checkbok.click();
+		
+		driver.close();
+		
+		
+	}
+	
+
+}

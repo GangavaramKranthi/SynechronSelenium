@@ -1,0 +1,21 @@
+package corejava;
+
+
+public class Construtors {
+
+	//constroutor name should be class name
+	
+	Construtors(){
+		
+		System.out.println("i am the constroutor");
+	}
+	
+	public static void main(String[] args) {
+
+
+		 Construtors obj = new  Construtors();
+		 
+
+	}
+
+}

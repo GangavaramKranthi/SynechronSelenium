@@ -1,0 +1,27 @@
+package corejava;
+
+public class Employeedetails {
+
+	
+		
+	//Attributes
+		
+		String EmployeeName= "Tolar";
+		int EmployeeID =2345;
+		String EmployeeBU= "APP1";
+		
+		public void fetchdomain()
+		{
+			System.out.println("Testing");
+		}
+		public static void main(String[] args) {
+			
+			Employeedetails ED= new Employeedetails();
+			
+			System.out.println(ED.EmployeeName);
+			System.out.println(ED.EmployeeID);
+			System.out.println(ED.EmployeeBU);
+			ED.fetchdomain();
+	}
+
+}

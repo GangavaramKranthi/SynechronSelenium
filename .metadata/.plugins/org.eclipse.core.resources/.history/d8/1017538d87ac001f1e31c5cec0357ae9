@@ -1,0 +1,19 @@
+package corejava;
+
+public class Circle implements Interfaceshape {
+
+	
+
+	@Override
+	public void getarea() {
+		System.out.println("display circle area");
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Circle obj=new Circle();
+		obj.getarea();
+	}
+
+}

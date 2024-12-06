@@ -1,0 +1,29 @@
+package Datadriventesting;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Testcase1 extends ReadPropertiesFile{
+	
+
+	public static void main(String[] args) {
+			
+		ReadPropertiesFile rp =new ReadPropertiesFile ();
+		
+		Properties prop = new Properties();
+		String fileName = "Cofig.Properties";
+		try (FileInputStream fis = new FileInputStream(fileName)) {
+		    prop.load(fis);
+		} catch (FileNotFoundException ex) {
+		     // FileNotFoundException catch is optional and can be collapsed
+		} catch (IOException ex) {
+		    
+		}
+		System.out.println(prop.getProperty("app.name"));
+		System.out.println(prop.getProperty("app.version"));
+		
+	}
+
+}

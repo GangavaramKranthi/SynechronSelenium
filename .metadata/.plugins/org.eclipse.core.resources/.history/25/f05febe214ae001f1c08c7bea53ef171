@@ -1,0 +1,27 @@
+package Collections1;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class Treesetex {
+
+	public static void main(String[] args) {
+
+
+		TreeSet<Float> hs= new TreeSet<Float>();
+		
+		hs.add(77.7f);
+		hs.add(87.7f);
+		hs.add(87.7f);
+		hs.add(12.6f);
+		
+		Iterator itr=hs.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+
+	}
+
+}

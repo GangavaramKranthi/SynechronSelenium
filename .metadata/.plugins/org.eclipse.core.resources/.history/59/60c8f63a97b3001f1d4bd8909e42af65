@@ -1,0 +1,11 @@
+package synechronTestng;
+
+public class Autosuggestion {
+
+	
+	public void autosugg(){
+		
+		
+		
+	}
+}

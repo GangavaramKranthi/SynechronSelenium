@@ -1,0 +1,32 @@
+package corejava;
+
+public class loginclass {
+	
+	public void login(String Username , String password) {
+		
+		
+		//concatnent 
+		
+		System.out.println(Username+"  " password);
+		
+		//String c=  Username + password;
+		//System.out.println(c);
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		loginclass obj = new loginclass();
+		obj.login("Kranthi", "User@123");
+		obj.login("soyal", "User@453");
+		obj.login("pra", "Uab@123");
+		
+		
+	}
+	
+	}
+
+

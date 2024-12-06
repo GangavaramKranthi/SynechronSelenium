@@ -1,0 +1,22 @@
+package Collections1;
+
+import java.util.Vector;
+
+public class Vectorex {
+
+	public static void main(String[] args) {
+
+
+		Vector<Integer> Vc=new Vector <Integer>();
+		
+		Vc.add(123);
+		Vc.add(456);
+		Vc.add(678);
+		Vc.add(789);
+		
+		System.out.println(Vc.capacity());
+		System.out.println(Vc.spliterator());
+
+	}
+
+}

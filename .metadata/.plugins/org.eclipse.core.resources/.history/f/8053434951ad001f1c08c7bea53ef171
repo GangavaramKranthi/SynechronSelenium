@@ -1,0 +1,42 @@
+package Acessmodifers;
+
+public class File1 {
+
+	
+	// public can acess package same or another package also
+	public String s1= "new dehil";
+	
+	public int Zipcode = 5678;
+	
+	
+	//private access only same class
+	
+	private String address ="st peter road";
+	
+	//protected access with in same package only
+	
+	protected String City="Bangalore";
+	
+	//default can access with in same package only
+		
+	String s2= "Kranthi";
+		
+				
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		File1 obj= new File1();
+		
+		System.out.println(obj.s1);
+		
+		System.out.println(obj.Zipcode);
+		
+		System.out.println(obj.address);
+
+		System.out.println(obj.City);
+		System.out.println(obj.s2);
+	}
+}

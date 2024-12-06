@@ -1,0 +1,18 @@
+package Collections1;
+
+public class Arraylist {
+
+	public static void main(String[] args) {
+	
+		
+		//allows duplicate vallues,
+		//able to store dynamic data
+		//allow nulll values
+		// maintains inseration order
+		//non synchronized multi threading is allowed if the threads try to modify the data final output is inconsistant
+
+		
+		Arraylist
+	}
+
+}

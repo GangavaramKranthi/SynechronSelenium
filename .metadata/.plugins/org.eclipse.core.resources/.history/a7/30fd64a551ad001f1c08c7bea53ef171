@@ -1,0 +1,16 @@
+package PackageAcess;
+
+import Acessmodifers.File1;
+
+public class p1File1 {
+
+	public static void main(String[] args) {
+
+		File1 obj= new File1();
+		
+		System.out.println(obj.s1);
+		
+		System.out.println(obj.Zipcode);
+	}
+
+}

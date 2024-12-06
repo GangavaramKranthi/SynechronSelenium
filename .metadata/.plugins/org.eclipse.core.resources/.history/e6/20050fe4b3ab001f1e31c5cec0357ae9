@@ -1,0 +1,32 @@
+package corejava;
+
+public class Staticvariable {
+
+	//non -static variable
+	String EpName ="Peter";
+	
+	//static variable 
+	static int Empid= 6788;
+	
+	public void displayEpbu() {
+		//local variable
+		String Empbu= "Testing";
+		//declaring static varaible inside the method is not allowed
+	//	static String empname="name";
+		
+		
+		System.out.println(Empbu);
+		 System.out.println(Empid);
+		 System.out.println(EpName);
+		 
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Staticvariable obj= new Staticvariable();
+		obj.displayEpbu();
+		
+	}
+
+}

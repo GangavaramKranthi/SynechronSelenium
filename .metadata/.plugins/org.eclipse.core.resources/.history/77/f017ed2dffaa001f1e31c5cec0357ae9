@@ -1,0 +1,38 @@
+package corejava;
+
+public class Variables {
+
+	int a=5;
+	// instance or class level variable 
+	
+	String Studentname = "peter";
+	int studentid =1234;
+	
+	//static variable 
+	static String  studentcollage="mrit";
+	
+	System.out.println(Studentcollage);
+	
+	public void Studentdata()
+	{
+		
+		System.out.println(Studentname);
+		System.out.println(Studentid);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		// local variable
+		
+		String StudentDept="ECE";
+		System.out.println(StudentDept);
+		Variables ob= new Variables();
+		
+		
+		
+
+	}
+
+}

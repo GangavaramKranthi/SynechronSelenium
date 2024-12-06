@@ -1,0 +1,45 @@
+package corejava;
+
+public class methodoverlodingex {
+
+	
+	//rule : method should be same
+	
+	//method add with 2 parameters
+	
+	public void add (int a, int b) {
+		
+		int  c= a+b;
+		System.out.println(c);
+		
+	}
+	
+	//method add with 3 parameters
+	
+	
+		public void add (int a, int b, int c) {
+			
+			int  d= a+b+c;
+			System.out.println(d);
+			
+		}
+		
+		//method add with 4 parameters
+		
+			public void add (int a, int b, int c, int d) {
+				
+				int  e= a+b+c+d;
+				System.out.println(e);
+				
+			}
+	
+	public static void main(String[] args) {
+		methodoverlodingex  obj =new methodoverlodingex();
+		obj.add(4, 5);
+		obj.add(2, 2, 2);
+		obj.add(2, 2, 2, 2);
+		
+
+	}
+
+}

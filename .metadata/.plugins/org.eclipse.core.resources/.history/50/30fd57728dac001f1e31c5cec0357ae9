@@ -1,0 +1,17 @@
+package corejava;
+
+public class Encapsulationex {
+
+	private String Name="Ravi";
+	
+	private int id=56778;
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package corejava;
+
+public class Staticvariable {
+
+	
+	String EpName ="Peter";
+	
+	//static variable 
+	static int Empid= 6788;
+	
+	public void displayEpbu() {
+		//local variable
+		String Empbu= "Testing";
+		
+	//	static String empname="name";
+		
+		
+		System.out.println(Empbu);
+		 System.out.println(Empid);
+		 System.out.println(EpName);
+		 
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Staticvariable obj= new Staticvariable();
+		obj.displayEpbu();
+		System.out.println(Empid);
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package corejava;
+
+public class Variables {
+
+	// instance or class level variable 
+	String Studentname = "peter";
+	int studentid = 1234;
+	
+	//static variable 
+	static String  studentcollage="mrit";
+	
+	
+	public void Studentdata()
+	{
+		
+		
+		System.out.println(Studentname);
+		System.out.println(studentid);	
+		System.out.println(studentcollage);
+	}
+	
+	public static void main(String[] args) {
+		// local variable
+		
+		String StudentDept="ECE";
+		System.out.println(StudentDept);
+		Variables ob= new Variables();
+		System.out.println(studentcollage);
+		
+		
+		
+		
+		
+
+	}
+
+}

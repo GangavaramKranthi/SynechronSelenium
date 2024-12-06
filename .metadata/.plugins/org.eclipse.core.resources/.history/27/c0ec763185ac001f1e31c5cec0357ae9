@@ -1,0 +1,22 @@
+package corejava;
+
+public class Interfacechild implements Interface1 {
+
+	
+	@Override
+	public void display() {
+		
+		System.out.println("Display from in nterface");
+		
+	}
+
+	public static void main(String[] args) {
+
+		Interfacechild obj=new Interfacechild();
+		obj.display();
+		System.out.println(s1);
+
+	}
+
+	
+}

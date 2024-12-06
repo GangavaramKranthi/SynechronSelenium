@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Fumctiional" verbose="1">
+  <test name="UI automation">
+    <classes>
+       <class name="synechronTestng.Testcase1"/>
+		 <class name="synechronTestng.Testcase2"/>
+    </classes>
+  </test>
+
+ 
+</suite>

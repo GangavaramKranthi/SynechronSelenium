@@ -1,0 +1,24 @@
+package Acessmodifers;
+
+public class File1 {
+
+	
+	public String s1= "new dehil";
+	
+	public int Zipcode = 5678;
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		File1 obj= new File1();
+		
+		System.out.println(obj.s1);
+		
+		System.out.println(obj.Zipcode);
+
+	}
+}

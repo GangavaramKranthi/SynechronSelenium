@@ -1,0 +1,23 @@
+package Synechrontestcase;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class dyanamicwebtable {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+WebDriver driver= new ChromeDriver();
+		
+		driver.get("https://ui.cogmento.com/contacts");
+		
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
+		
+	}
+
+}

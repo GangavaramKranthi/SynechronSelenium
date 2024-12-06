@@ -1,0 +1,49 @@
+package corejava;
+
+
+
+public class Encapsulationex {
+
+	private String Name;
+	
+	private int id;
+
+	//getters method to fetch the private data
+	// setter to set data
+	
+	public void getname(){
+		
+		System.out.println(Name);
+	}
+	
+	
+	public void setname(String n) {
+		this.Name=n;
+	}
+	
+	
+	public void getid(){
+		
+		System.out.println(id);
+	}
+	
+	public void setid(int i) {
+		this.id=i;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Encapsulationex  obj=new Encapsulationex ();
+		
+		obj.setname("Kranthi");
+		obj.setid(1234);
+		
+		obj.getid();
+		obj.getname();
+
+		obj.setname("kra);
+	}
+
+}

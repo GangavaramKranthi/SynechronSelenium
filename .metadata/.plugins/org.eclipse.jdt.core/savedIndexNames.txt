@@ -1,0 +1,20 @@
+INDEX VERSION 1.134+C:\Users\Kiosk_user\eclipse-workspace-Kranthi\.metadata\.plugins\org.eclipse.jdt.core
+3391278987.index
+1795040445.index
+855150150.index
+2207856923.index
+879415310.index
+1484450627.index
+1774786620.index
+1527272819.index
+51423422.index
+1865797976.index
+2825265469.index
+412307617.index
+4048465394.index
+4241605279.index
+3634162508.index
+2912513044.index
+968116399.index
+2942286481.index
+3444739554.index

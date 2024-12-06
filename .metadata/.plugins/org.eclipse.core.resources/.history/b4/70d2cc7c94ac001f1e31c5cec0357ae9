@@ -1,0 +1,36 @@
+package corejava;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class Throwexception {
+		
+	
+	public void validate(int age) {
+		
+		if(age<18) {
+			
+			throw new ArithmeticException("person is not eliglbe ");
+		}
+		else
+		{
+			System.out.println("Persion is eligible for voting");
+		}
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Throwexception obj = Throwexception();
+		obj.validate(17);
+
+	}
+
+
+
+	private static Throwexception Throwexception() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

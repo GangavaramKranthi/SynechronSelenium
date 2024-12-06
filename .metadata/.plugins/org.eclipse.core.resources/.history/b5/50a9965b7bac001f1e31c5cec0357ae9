@@ -1,0 +1,25 @@
+package corejava;
+
+public class hericalsubclass3 extends HericalSuperclass {
+	
+  public void display3() {
+		
+		System.out.println("i am in subclass3");
+		
+	}
+	
+
+	public static void main(String[] args) {
+ hericalsubclass3 hs =new hericalsubclass3();
+		
+		//method from parent class(HericalSuperclass)
+		hs.display();
+		//meethod from child class( hericalsubclass3)
+		hs.display3();
+		
+		hericalsubclass2 hs1 =new hericalsubclass2();
+		hs1.display();
+		hs1.display2();
+	}
+
+}

@@ -1,0 +1,22 @@
+package corejava;
+
+public class Triangle implements Interfaceshape{
+
+	
+	
+	@Override
+	public void getarea() {
+	
+		System.out.println("display trainagle area");
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Triangle obj=new Triangle();
+		obj.getarea();
+	}
+
+	
+
+}

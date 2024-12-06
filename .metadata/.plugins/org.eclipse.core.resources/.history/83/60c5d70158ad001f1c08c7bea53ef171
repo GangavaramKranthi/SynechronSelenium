@@ -1,0 +1,24 @@
+package corejava;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class FileReading {
+
+	
+	
+	
+	
+	public static void main(String[] args) throws IOException {
+			
+		FileInputStream fin = new FileInputStream("D://Kranthi.txt");
+			
+		int i= fin.read();
+		
+		System.out.println((char)i);
+		
+		fin.close();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package corejava;
+
+	abstract public class Abstractclassex {
+	//abstract class contain both default and abstract methods
+		// abstract method have only method signature , no method body
+		// no object creation of a abstract class
+		//we can achieve 0 -80 % of abstraction
+	
+		// default method
+		public void display() {
+			
+			System.out.println("Displaying in default method");
+		}
+
+		
+		abstract void read();
+}

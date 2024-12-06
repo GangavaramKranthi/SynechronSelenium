@@ -1,0 +1,42 @@
+package Synechrontestcase;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class framesex {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		WebDriver driver= new ChromeDriver();
+		
+		driver.get("https://jqueryui.com/checkboxradio/");
+		
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
+		
+		
+		WebElement newyork= driver.findElement(By.xpath("//label[normalize-space()='New York']"));
+		//add frame path
+		
+		
+		
+		WebElement frame= driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
+		
+		driver.switchTo().frame(frame);
+		//indexing
+		//driver.switchTo().frame(0);
+		
+		// name or id
+		
+		driver.switchTo().frame("demo-frame");
+		
+		
+		newyork.click();
+		
+	}
+
+}

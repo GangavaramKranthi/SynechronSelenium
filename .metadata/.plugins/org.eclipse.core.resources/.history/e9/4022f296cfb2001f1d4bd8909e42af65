@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Fumctiional" verbose="1" parallel="methods">
+  <test name="UI automation">
+  
+  
+   <groups>
+    <run>
+      <include name="santity"/>
+    </run>
+  </groups>
+  
+    <classes>
+    		<class name="synechronTestng.Testcasel"/>
+		 	<class name="synechronTestng.Testcase2"/>
+		    <class name="synechronTestng.Testcase3"/>
+		    <class name="synechronTestng.Testcase4"/>
+        
+    </classes>
+  </test>
+
+ 
+</suite>

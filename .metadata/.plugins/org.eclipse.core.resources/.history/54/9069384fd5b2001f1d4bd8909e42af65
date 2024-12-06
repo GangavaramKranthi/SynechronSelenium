@@ -1,0 +1,16 @@
+package synechronTestng;
+
+import org.testng.annotations.Test;
+
+
+import com.beust.jcommander.Parameters;
+
+public class parameters1 {
+
+		@Test
+		@Parameters({"browser"})
+		public void lauchbrowser() {
+			
+			
+		}
+}

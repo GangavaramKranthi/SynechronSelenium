@@ -1,0 +1,24 @@
+package corejava;
+
+public class Variables {
+
+	int a=5;
+	// instance or class level varabile 
+	String Studentname = "peter";
+	
+	int studentid =1234;
+	static String  studentcollage="mrit";
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String StudentDept="ECE";
+		
+		System.out.println(StudentDept);
+		System.out.println(Studentname);
+		System.out.println(Studentid);
+		System.out.println(Studentcollage);
+
+	}
+
+}

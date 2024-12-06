@@ -1,0 +1,15 @@
+package corejava;
+
+public class Javadatatypes {
+	
+	
+	String s1 = "Kranthi";
+	
+	System.out.println(s1);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package corejava;
+
+public interface Interfaceshape {
+	
+	public void getarea();
+	
+	
+
+}

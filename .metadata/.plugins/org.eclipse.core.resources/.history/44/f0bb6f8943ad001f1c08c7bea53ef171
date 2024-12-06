@@ -1,0 +1,36 @@
+package corejava;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class Throwsexception {
+
+	
+	
+	
+	public class Throwexception {
+		
+		
+		public void (String filename) throws FileNotFoundException, InterruptedException {
+			
+			
+			FileReader fr= new FileReader("c:\\test.txt");
+			Thread.sleep(2000);
+			
+		}
+		
+	public static void main(String[] args) {
+		
+		Throwsexception obj =Throwsexception();
+		obj.reader
+		
+	}
+
+	}
+
+	public static Throwsexception Throwsexception() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
+

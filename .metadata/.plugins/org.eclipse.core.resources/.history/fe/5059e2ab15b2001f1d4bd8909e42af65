@@ -1,0 +1,38 @@
+package Synechrontestcase;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class dyanamicwebtable {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+WebDriver driver= new ChromeDriver();
+		
+		driver.get("https://ui.cogmento.com/contacts");
+		
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
+		WebElement Username = driver.findElement(By.name("email"));
+		
+		 Username.sendKeys("gangavaram.kranthi3@gmail.com");
+		 
+		 WebElement password = driver.findElement(By.name("password"));
+		
+		password .sendKeys("Chinna@16");
+		
+		 WebElement login = driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']"));
+		 
+		 login.click();
+		 
+		 driver.switchTo().frame("Mainpanel");
+		 
+		 Thread.sleep(2000);
+		 
+	}
+
+}

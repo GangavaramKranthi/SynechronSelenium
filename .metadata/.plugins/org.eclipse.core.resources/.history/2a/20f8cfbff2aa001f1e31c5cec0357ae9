@@ -1,0 +1,19 @@
+package corejava;
+
+public class Studentinfrom {
+
+	
+		String StudentName="Kranthi";
+		int StudentID= 3456;
+		String StudentBu= "App1";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Studentinfrom NI = new Studentinfrom();
+		System.out.println(NI.StudentName);
+		System.out.println(NI.StudentID);
+		System.out.println(NI.StudentBu);
+	}
+
+}

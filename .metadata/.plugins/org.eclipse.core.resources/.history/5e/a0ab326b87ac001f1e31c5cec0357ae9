@@ -1,0 +1,25 @@
+package corejava;
+
+public class Rectangle implements Interfaceshape{
+
+
+	@Override
+	public void getarea() {
+		
+		System.out.println("display rectangle area");
+		
+	}
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Circle obj=new Circle();
+		obj.getarea();
+	}
+
+
+	
+
+}

@@ -1,0 +1,50 @@
+package Synechrontestcase;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LaunchFirefox {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		
+		//WebDriverManager.firefoxdriver().setup();
+		
+		//WebDriver driver= new FirefoxDriver();
+		
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver= new ChromeDriver();
+		
+	//driver.get("https://www.selenium.dev");
+	driver.get("https://practicetestautomation.com/practice-test-login/");
+	
+	WebElement userName =(WebElement) driver.findElements(By.name("username"));
+	
+	userName.sendKeys(" student");
+	
+	WebElement Password =driver.findElement(By.name("Password"));
+	
+	Password.sendKeys("Password123");
+	
+	WebElement login= driver.findElement(By.linkText("Submit"));
+	
+	login.click();
+	
+	
+	
+		
+		
+		
+		Thread.sleep(2000);
+		
+		driver.quit();
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package corejava;
+
+public class Encapsulationex {
+
+	private String Name;
+	
+	private int id;
+
+	//getters method to fetch the private data
+	// setter to set data
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

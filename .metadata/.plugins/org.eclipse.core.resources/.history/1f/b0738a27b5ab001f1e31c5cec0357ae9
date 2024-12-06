@@ -1,0 +1,18 @@
+package corejava;
+
+public class ifstatement {
+
+	
+	
+	public static void main(String[] args) {
+
+			int age =16;
+				
+			if(age>=20) {
+				
+				System.out.println("the person is egilable for vote");
+			}
+
+	}
+
+}

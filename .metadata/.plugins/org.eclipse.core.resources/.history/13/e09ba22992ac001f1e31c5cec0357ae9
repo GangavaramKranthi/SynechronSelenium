@@ -1,0 +1,53 @@
+package corejava;
+
+public class Exceptionex {
+	
+	public void nulldisplay() {
+	
+	
+	try {
+			String s=null;
+			
+			System.out.println(s.length());
+			
+		}
+	
+	catch(Exception e) {
+		
+		e.printStackTrace();
+	}
+	
+	}
+	
+	public void Atrmttaicdisplay() {
+		
+		
+		try {
+				int a=0;
+				int b=5;
+				int c=a/b;
+				
+				System.out.println(c);
+				
+			}
+		
+		catch(Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		}
+		
+	
+	public static void main(String[] args) {
+		
+		
+		
+		Exceptionex obj=new Exceptionex ();
+		obj.nulldisplay();
+
+	}
+
+}
+
+

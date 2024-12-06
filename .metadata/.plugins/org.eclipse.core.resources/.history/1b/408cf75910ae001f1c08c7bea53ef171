@@ -1,0 +1,40 @@
+package Collections1;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class linklist {
+
+	public static void main(String[] args) {
+		
+		LinkedList <String> list = new LinkedList <String> ();
+		LinkedList <Integer> li= new LinkedList <Integer> ();
+		
+		li.add(123);
+		
+		list.add("jhon");
+		list.add("kra");
+		list.add("peter");
+		list.add("ravi");
+		list.add("ravi1");
+		System.out.println(list);
+		
+		list.remove(1);
+		System.out.println(list.contains("kra"));
+		System.out.println(list.isEmpty());
+		System.out.println(list.get(3));
+		System.out.println(list.size());
+		
+		Iterator itr=list.iterator();
+		
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
+		System.out.println();
+		
+		
+	}
+
+}

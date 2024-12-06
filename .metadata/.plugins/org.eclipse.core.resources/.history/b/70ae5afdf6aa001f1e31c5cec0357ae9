@@ -1,0 +1,29 @@
+package corejava;
+
+public class Javadatatypes {
+	
+	
+
+	public static void main(String[] args) {
+	
+//		// TODO Auto-generated method stub
+//		System.out.println(s1);
+//		System.out.println(d);
+		
+		String s1 = "Kranthi";
+		int d = 1232;
+		 char ch ='a';
+		 boolean b1=true;
+		 
+		 
+		 
+		System.out.println(s1);
+		System.out.println(d);
+
+		System.out.println(ch);
+		System.out.println(b1);
+		
+//		
+	}
+	
+}

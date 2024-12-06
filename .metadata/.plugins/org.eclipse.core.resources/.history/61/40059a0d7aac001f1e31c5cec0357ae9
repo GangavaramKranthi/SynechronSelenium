@@ -1,0 +1,21 @@
+package corejava;
+
+public class hericalsubclass1 extends HericalSuperclass{
+
+	public void displa1y() {
+		
+		System.out.println("i am in subclass1");
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		hericalsubclass1 hs=new hericalsubclass1();
+		hs.display();
+		hs.displa1y();
+
+	}
+
+}

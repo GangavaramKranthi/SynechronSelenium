@@ -1,0 +1,41 @@
+package corejava;
+
+public class ifelseladder {
+
+	
+	
+	public static void main(String[] args) {
+
+		String city= "bangalore";
+		
+		if(city=="Delhi")
+		{
+			System.out.println("the city is delhi");
+		}
+
+		else if (city =="banglaore")
+		{
+			System.out.println("the city is Bangalore");
+		}
+		
+		else if (city =="Mysore")
+		{
+			System.out.println("the city is mysore");
+			
+		}
+		else if (city =="Mmbai")
+		{
+			System.out.println("the city is Mambai");
+		}
+		
+		else 
+			
+			{
+				System.out.println();
+			}
+		}
+		
+	}
+	
+
+

@@ -1,0 +1,28 @@
+package corejava;
+
+
+public class Construtors {
+
+	//constroutor name should be class name
+	
+	//  Construtors are called when the object of the class is created
+	
+	String s1;
+	int id;
+	
+	Construtors(){
+		
+		System.out.println("i am the constroutor");
+		
+		System.out.println(s1+" "+id);
+	}
+	
+	public static void main(String[] args) {
+
+
+		 Construtors obj = new  Construtors();
+		 
+
+	}
+
+}
