@@ -16,5 +16,4 @@ INDEX VERSION 1.134+C:\Users\Kiosk_user\eclipse-workspace-Kranthi\.metadata\.plu
 3634162508.index
 2912513044.index
 968116399.index
-2942286481.index
 3444739554.index

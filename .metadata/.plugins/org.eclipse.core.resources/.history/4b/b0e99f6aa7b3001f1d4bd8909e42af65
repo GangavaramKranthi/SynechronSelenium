@@ -1,0 +1,32 @@
+package synechronTestng;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.github.dockerjava.api.model.Driver;
+
+public class loginpage {
+
+	WebElement driver;
+	//locators and the  methods on the login page
+	
+	private By email=By.xpath("//input[@id='user-name'])[1]");
+	
+	private By password =By.xpath("//input[@id='password']");
+	
+	private By login  =By.xpath("//input[@id='login-button']");
+	
+	@Test
+	public void login() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		
+		WebElement username = driver.findElement(email);
+				username	.sendKeys("standard_user");
+		
+		WebElement password1 = driver.findElement(password);
+		password1.sendKeys("secret_sauce");
+	}
+	
+}
